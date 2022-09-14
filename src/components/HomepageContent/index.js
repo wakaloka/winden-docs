@@ -1,20 +1,22 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 
+import './wp-styles.scss';
+
 export default function HomepageContent() {
   return (
-    <div class="text-black bg-white">
+    <div class="homepage-container text-black bg-white">
       <div>
-        <section class="py-24 m-0 bg-cover bg-no-repeat pb-24 bg-[#f3f7f6] bg-[url('/img/homepage-hero-bg.jpg')] bg-[length:80%_auto] bg-right-top">
+        <section class="py-24 m-0 bg-no-repeat pb-24 bg-[#f3f7f6] bg-[url('/img/homepage-hero-bg.jpg')] bg-[length:auto_100%] md:bg-[length:80%_auto] bg-center md:bg-right-top bg-fixed">
           <div class="container mx-auto">
             <div>
               <div class="flex gap-4 items-start flex-col md:gap-4 md:flex-row md:items-center">
-                <h2 class="m-0 text-[clamp(2.75rem,6vw,3.25rem)]"><strong>400+</strong></h2>
+                <h2 class="m-0"><strong>400+</strong></h2>
                 <p class="m-0 text-lg leading-6">Winden users enjoying <br /> Tailwind CSS inside page builder</p>
               </div>
               <hr class="inline-block w-20 border-b-2 border-solid" />
             </div>
-            <h1 class="text-[clamp(3.25rem,8vw,6.25rem)] font-light my-20">The #1 utility CSS Framework <br /><strong> for WordPress.</strong></h1>
+            <h1 class="font-light my-20">The #1 utility CSS Framework <br /><strong> for WordPress.</strong></h1>
 
             <div class="mb-8 grid grid-cols-1 md:grid-cols-3 justify-around gap-4 items-start md:gap-16 md:items-center">
               <div class="flex justify-start items-center gap-2 m-0 ">
@@ -328,12 +330,12 @@ export default function HomepageContent() {
             <p class="text-lg">Production-ready with no performance impact.<br />The latest Tailwind CSS version (3.x) is always available.</p>
             <div class="mt-16 z-20 relative flex gap-6 flex-col md:flex-row">
               <Link
-                className="button button--primary button--lg dark:text-white dark:bg-[#2e8555] dark:hover:bg-[#29784c]"
+                className="button button--primary button--lg shadow-md dark:text-white dark:bg-[#2e8555] dark:hover:bg-[#29784c]"
                 to="https://dplugins.com/products/winden/">
                 Download
               </Link>
               <Link
-                className="button button--secondary button--lg"
+                className="button button--secondary button--lg shadow-md"
                 to="/docs">
                 Learn more
               </Link>
@@ -344,7 +346,7 @@ export default function HomepageContent() {
               </div>
             </figure>
             <div class="rounded-lg p-3 md:p-16 md:mt-24">
-              <h2 class="text-center text-[clamp(2.75rem,6vw,3.25rem)]">
+              <h2 class="text-center ">
                 <strong>Focus on Design</strong>
               </h2>
               <p class="text-center text-lg">
@@ -356,14 +358,15 @@ export default function HomepageContent() {
                 <div class="text-center">
                   <img class="h-24 w-24" src="/img/microsoft/fluentui-emoji/handshake_3d.png" />
                 </div>
-                <h3 class="text-3xl mt-0"><strong>
-                  <span class="text-base uppercase font-normal text-slate-500 tracking-widest">
-                    Agnostic Integration
-                  </span>
-                  <br />
-                  Friend of your favorite page builders.
-                </strong>
-                </h3>
+                <h4 class="mt-0">
+                  <strong>
+                    <span class="text-base uppercase font-normal text-slate-500 tracking-widest">
+                      Agnostic Integration
+                    </span>
+                    <br />
+                    Friend of your favorite page builders.
+                  </strong>
+                </h4>
                 <p class="text-justify">
                   Works across the entire WordPress ecosystem and allows you to use Tailwind CSS inside your favorite page builders like Gutenberg, Elementor, Bricks Builder, Oxygen Builder, Zion Builder, etc.
                 </p>
@@ -373,14 +376,15 @@ export default function HomepageContent() {
                 <div class="text-center">
                   <img class="h-24 w-24" src="/img/microsoft/fluentui-emoji/rocket_3d.png" />
                 </div>
-                <h3 class="text-3xl mt-0"><strong>
-                  <span class="text-base uppercase font-normal text-slate-500 tracking-widest">
-                    Performance in mind
-                  </span>
-                  <br />
-                  Lightning-fast and Lightweight website
-                </strong>
-                </h3>
+                <h4 class="mt-0">
+                  <strong>
+                    <span class="text-base uppercase font-normal text-slate-500 tracking-widest">
+                      Performance in mind
+                    </span>
+                    <br />
+                    Lightning-fast and Lightweight website
+                  </strong>
+                </h4>
                 <p class="text-justify">
                   A single cached CSS file for the entire website with less than 10KB. Get higher scores on Google PageSpeed Insights and rank higher on Google Search.
                 </p>
@@ -390,14 +394,15 @@ export default function HomepageContent() {
                 <div class="text-center">
                   <img class="h-24 w-24" src="/img/microsoft/fluentui-emoji/beach_with_umbrella_3d.png" />
                 </div>
-                <h3 class="text-3xl mt-0"><strong>
-                  <span class="text-base uppercase font-normal text-slate-500 tracking-widest">
-                    Developer Experience.
-                  </span>
-                  <br />
-                  Productivity boost. Hello Holiday!
-                </strong>
-                </h3>
+                <h4 class="mt-0">
+                  <strong>
+                    <span class="text-base uppercase font-normal text-slate-500 tracking-widest">
+                      Developer Experience.
+                    </span>
+                    <br />
+                    Productivity boost. Hello Holiday!
+                  </strong>
+                </h4>
                 <p class="text-justify">
                   Rapidly build modern websites in no time with utility CSS framework. No more writing CSS. No more debugging CSS. No more wasting time on CSS.
                 </p>
@@ -407,7 +412,7 @@ export default function HomepageContent() {
         </section>
         <section class="py-24 m-0 ">
           <div class="container mx-auto">
-            <h2 class="font-light text-[clamp(2.75rem,6vw,3.25rem)]"><span class="hidden md:inline-block">Page</span> Builders Compatibility</h2>
+            <h2 class="font-light text-center mb-12"><span class="hidden md:inline-block">Page</span> Builders Compatibility</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 text-center">
               <div>
                 <img src="/img/builder-friends/gutenberg.jpg" class="w-full rounded-lg shadow-3xl" alt="" />

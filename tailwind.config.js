@@ -5,7 +5,14 @@ module.exports = {
     "./{docs,blog}/**/*.{md,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        'wp-small': 'var(--wp--custom--spacing--small)',
+        'wp-medium': 'var(--wp--custom--spacing--medium)',
+        'wp-large': 'var(--wp--custom--spacing--large)',
+        'wp-outer': 'var(--wp--custom--spacing--outer)',
+      }
+    },
   },
   darkMode: ['class', '[data-theme="dark"]'],
   corePlugins: {
