@@ -77,21 +77,6 @@ Oxymade is a fork of the Tailwind CSS framework that exclusive to Oxygen Builder
 
 OxyMade comes with a collection of pre-made components and templates to boost your productivity. However, the component and templates are exclusive to be used inside the Oxygen Builder only, and you can't use it with other page builders or even plain HTML.
 
-### Automatic.css
-
-[Automatic.css](https://automaticcss.com/) is a utility CSS framework that is self-proclaimed to be the #1 and most practical, no-nonsense utility CSS framework for WordPress page builder, despite there are better, successful, and popular solutions out there such as [OxyNinja](#oxyninja) and [OxyMade](#oxymade).
-
-The origin of Automatic.css is a forked of OxyNinja with the addition of the extensive usage of `clamp` and `calc` CSS functions everywhere to bring fluid typography and marketed as "automatic" typography, colors, and spacing.
-
-Prior to the creation of Automatic.css, the author was promoting OxyNinja exclusively on their channel and company. It was changed after the introduction of Automatic.css, and the author published a comparison article between OxyNinja and Automatic.css, which is an apparent conflict of interest and to degrade or put down OxyNinja.
-
-The same attitude was made<sup><a href="https://www.facebook.com/groups/1626639680763454/posts/4955803564513699/">[2]</a></sup> by the author when the Winden was teased<sup><a href="https://www.facebook.com/groups/1626639680763454/posts/4923666124394110/">[3]</a></sup> to public and it become clear when the author publishing an article 3 hours before in the countdown of the official launch<sup><a href="https://www.facebook.com/groups/1626639680763454/posts/4954812177946171/">[4]</a></sup> of Winden.
-The article succeeded in holding Winden as the Winden developer was not prepared for that kind of attack, and the author was able to take advantage of the situation and gain more attention and traction.
-
-Even though the result of the official launch doesn't meet the expectation as a result of the attack, the Winden developer keeps focusing on the development, and we are proud of the progress made so far. It also motivated us to be the first to introduce the agnostic integration, which now supports a wide range of page builders and will be supported more in the future.
-
-Tailwind CSS is the most popular framework alongside Bootstrap and others. Use the battle-tested CSS Framework instead of an unpopular foreign framework with a limited maintainer. Learn once and use everywhere, not limited only to the page builder.
-
 ### OxyProps
 
 [OxyProps](https://oxyprops.com/) is a modern CSS custom properties first CSS Framework for Oxygen Builder. It is inspired, and built on top of Open Props, an open source collection of expertly crafted web design token, aimed at creating consistent components<sup><a href="https://docs.oxyprops.com/en/getting-started-with-oxyprops/#what-is-oxyprops">[5]</a></sup>.
