@@ -9,12 +9,12 @@ export default function HomepageContent() {
           <div class="container mx-auto">
             <div>
               <div class="flex gap-4 items-start flex-col md:gap-4 md:flex-row md:items-center">
-                <h2 class="m-0 text-[52px]"><strong>400+</strong></h2>
+                <h2 class="m-0 text-[clamp(2.75rem,6vw,3.25rem)]"><strong>400+</strong></h2>
                 <p class="m-0 text-lg leading-6">Winden users enjoying <br /> Tailwind CSS inside page builder</p>
               </div>
               <hr class="inline-block w-20 border-b-2 border-solid" />
             </div>
-            <h1 class="text-8xl font-light my-20">The #1 utility CSS Framework <br /><strong> for WordPress.</strong></h1>
+            <h1 class="text-[clamp(3.25rem,8vw,6.25rem)] font-light my-20">The #1 utility CSS Framework <br /><strong> for WordPress.</strong></h1>
 
             <div class="mb-8 grid grid-cols-1 md:grid-cols-3 justify-around gap-4 items-start md:gap-16 md:items-center">
               <div class="flex justify-start items-center gap-2 m-0 ">
@@ -326,7 +326,7 @@ export default function HomepageContent() {
               </div>
             </div>
             <p class="text-lg">Production-ready with no performance impact.<br />The latest Tailwind CSS version (3.x) is always available.</p>
-            <div class="mt-16 z-20 relative flex gap-6">
+            <div class="mt-16 z-20 relative flex gap-6 flex-col md:flex-row">
               <Link
                 className="button button--primary button--lg dark:text-white dark:bg-[#2e8555] dark:hover:bg-[#29784c]"
                 to="https://dplugins.com/products/winden/">
@@ -338,13 +338,13 @@ export default function HomepageContent() {
                 Learn more
               </Link>
             </div>
-            <figure class="my-32 overflow-hidden ">
+            <figure class="mx-0 my-16 md:my-32 overflow-hidden ">
               <div class="relative">
                 <iframe loading="lazy" title="Winden for Bricks Builder" class="rounded-2xl w-full h-full aspect-video" src="https://www.youtube.com/embed/Y4_LBUxsadk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </figure>
-            <div class="p-16 rounded-lg mt-24">
-              <h2 class="text-center text-[52px]">
+            <div class="rounded-lg p-3 md:p-16 md:mt-24">
+              <h2 class="text-center text-[clamp(2.75rem,6vw,3.25rem)]">
                 <strong>Focus on Design</strong>
               </h2>
               <p class="text-center text-lg">
@@ -407,7 +407,7 @@ export default function HomepageContent() {
         </section>
         <section class="py-24 m-0 ">
           <div class="container mx-auto">
-            <h2 class="font-light text-[52px]"><span class="hidden md:inline-block">Page</span> Builders Compatibility</h2>
+            <h2 class="font-light text-[clamp(2.75rem,6vw,3.25rem)]"><span class="hidden md:inline-block">Page</span> Builders Compatibility</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 text-center">
               <div>
                 <img src="/img/builder-friends/gutenberg.jpg" class="w-full rounded-lg shadow-3xl" alt="" />
