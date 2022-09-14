@@ -1,7 +1,6 @@
 :root {
     --wp--preset--font-size--normal: 16px;
     --wp--preset--font-size--huge: 42px;
-
     --wp--preset--font-size--small: 1rem;
     --wp--preset--font-size--medium: 1.125rem;
     --wp--preset--font-size--large: 1.75rem;
@@ -9,47 +8,62 @@
     --wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);
     --wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);
     --wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);
-
+    
     --wp--custom--spacing--small: clamp(1.25rem, -0.536rem + 4.762vw, 3.75rem);
     --wp--custom--spacing--medium: clamp(1.875rem, -0.804rem + 7.143vw, 5.625rem);
     --wp--custom--spacing--large: clamp(3.125rem, 0rem + 8.333vw, 7.5rem);
     --wp--custom--spacing--outer: clamp(5rem, 1.429rem + 9.524vw, 10rem);
-
+    
     --wp--custom--typography--line-height--tiny: 1.15;
     --wp--custom--typography--line-height--small: 1.2;
     --wp--custom--typography--line-height--medium: 1.4;
     --wp--custom--typography--line-height--normal: 1.6;
 }
 
+html {
+    scroll-padding-top: 70px; /* Ads 70PX to the anchor position */
+}
+
 .homepage-container {
+    background-image: url('/img/homepage/hero-bg.jpeg'); 
+    background-size: 80% auto; 
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f3f7f6;
+
+    // ********************************************************
+    // Typography
+    // ********************************************************
+
     h1 {
         font-family: var(--wp--preset--font-family--system-font);
         font-size: var(--wp--custom--typography--font-size--colossal);
         font-weight: 300;
         line-height: var(--wp--custom--typography--line-height--tiny);
     }
-
+    
     h2 {
         font-family: var(--wp--preset--font-family--system-font);
         font-size: var(--wp--custom--typography--font-size--gigantic);
         font-weight: 300;
         line-height: var(--wp--custom--typography--line-height--small);
     }
-
+    
     h3 {
         font-family: var(--wp--preset--font-family--system-font);
         font-size: var(--wp--custom--typography--font-size--huge);
         font-weight: 300;
         line-height: var(--wp--custom--typography--line-height--tiny);
     }
-
+    
     h4 {
         font-family: var(--wp--preset--font-family--system-font);
         font-size: var(--wp--preset--font-size--x-large);
         font-weight: 300;
         line-height: var(--wp--custom--typography--line-height--tiny);
     }
-
+    
     h5 {
         font-family: var(--wp--preset--font-family--system-font);
         font-size: var(--wp--preset--font-size--medium);
@@ -57,7 +71,7 @@
         line-height: var(--wp--custom--typography--line-height--normal);
         text-transform: uppercase;
     }
-
+    
     h6 {
         font-family: var(--wp--preset--font-family--system-font);
         font-size: var(--wp--preset--font-size--medium);
@@ -65,22 +79,77 @@
         line-height: var(--wp--custom--typography--line-height--normal);
         text-transform: uppercase;
     }
-
-    body,
-    p {
+    
+    body, p{
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
-
+    
         color: var(--wp--preset--color--foreground);
         font-family: var(--wp--preset--font-family--system-font);
         font-size: var(--wp--preset--font-size--medium);
         line-height: var(--wp--custom--typography--line-height--normal);
-
+        
         --wp--style--block-gap: 1.5rem;
     }
-
-    b,
-    strong {
+    
+    
+    .hr{
+        width: 100px;
+        height: 5px;
+        @apply mt-4 bg-black;
+    }
+    
+    b, strong {
         font-weight: bold;
     }
+
+    // ********************************************************
+    // Layout
+    // ********************************************************
+    
+    section{
+        @apply py-large;   
+    }
+    
+    .container{
+        width: 90%;
+        @apply mx-auto;
+    }
+    
+    .feature-box{
+        @apply border-indigo-200 border-solid border-2 bg-white p-8 rounded-lg;
+    }
+    
+    .design-kit-box{
+        @apply flex flex-col justify-center min-w-[250px] lg:min-w-[500px] gap-8;
+    }
+    
+    .design-kit-thumb{
+        @apply  relative w-full rounded-t-2xl overflow-hidden;
+    }
+    
+    .design-kit-thumb:before {
+        @apply absolute block w-full h-full top-0 bg-gradient-to-b from-transparent to-white;
+        content: '';
+    }
+
+
+    // ********************************************************
+    // Form
+    // ********************************************************
+
+    .btn{
+        @apply rounded-full px-12 py-4 bg-black text-white;
+        font-size: 1.2em;
+    }
+
+    .btn-outline{
+        @apply rounded-full text-black px-12 py-4;
+        font-size: 1.2em;
+        border: 2px solid black;
+    }
+
+    
 }
+
+

@@ -7,10 +7,10 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        'wp-small': 'var(--wp--custom--spacing--small)',
-        'wp-medium': 'var(--wp--custom--spacing--medium)',
-        'wp-large': 'var(--wp--custom--spacing--large)',
-        'wp-outer': 'var(--wp--custom--spacing--outer)',
+        'small': 'var(--wp--custom--spacing--small)',
+        'medium': 'var(--wp--custom--spacing--medium)',
+        'large': 'var(--wp--custom--spacing--large)',
+        'outer': 'var(--wp--custom--spacing--outer)',
       }
     },
   },
