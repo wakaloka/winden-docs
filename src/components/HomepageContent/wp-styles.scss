@@ -103,5 +103,11 @@
         border: 2px solid theme('colors.black');
         border-radius: theme('borderRadius.full');
         font-size: 1.2em;
+        color: theme('colors.black');
+        padding-left: theme('spacing.12');
+        padding-right: theme('spacing.12');
+        padding-top: theme('spacing.4');
+        padding-bottom: theme('spacing.4');
+
     }
 }
