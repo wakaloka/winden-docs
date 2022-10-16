@@ -83,4 +83,25 @@
     strong {
         font-weight: bold;
     }
+
+    // ********************************************************
+    // Form
+    // ********************************************************
+
+    .wp-btn {
+        border-radius: theme('borderRadius.full');
+        padding-left: theme('spacing.12');
+        padding-right: theme('spacing.12');
+        padding-top: theme('spacing.4');
+        padding-bottom: theme('spacing.4');
+        background-color: theme('colors.black');
+        color: theme('colors.white');
+        font-size: 1.2em;
+    }
+
+    .wp-btn-outline {
+        border: 2px solid theme('colors.black');
+        border-radius: theme('borderRadius.full');
+        font-size: 1.2em;
+    }
 }

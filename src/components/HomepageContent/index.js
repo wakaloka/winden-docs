@@ -22,7 +22,7 @@ export default function HomepageContent() {
               <div class="flex justify-start items-center gap-2 m-0 ">
                 <div>
                   <div class="w-12">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="w-12 h-12" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M16.7245 3.80341L8.5674 17.3323C8.38083 17.6417 8.60367 18.0362 8.965 18.0362L13.0915 18.0363C13.3992 18.0363 13.6486 18.2857 13.6486 18.5934V27.2305H13.158V29.5711H13.91C14.0051 29.5779 14.1042 29.5367 14.165 29.4372L23.2384 14.5715C23.3517 14.3859 23.2181 14.1478 23.0006 14.1478H18.2921C18.0356 14.1478 17.8278 13.9399 17.8278 13.6835V2.97508C17.8278 2.80998 17.7007 2.70612 17.566 2.69674L16.7245 2.69604V3.80341Z" fill="url(#paint0_linear_18_15539)" />
                       <g filter="url(#filter0_i_18_15539)">
                         <path d="M16.4931 2.83125L7.74977 17.3323C7.56321 17.6417 7.78604 18.0363 8.14735 18.0363L12.2739 18.0363C12.5816 18.0363 12.831 18.2857 12.831 18.5934V29.2921C12.831 29.5735 13.2007 29.6774 13.3473 29.4372L22.4208 14.5715C22.5341 14.3858 22.4005 14.1478 22.183 14.1478H17.4744C17.218 14.1478 17.0102 13.9399 17.0102 13.6835V2.97508C17.0102 2.69288 16.6388 2.58958 16.4931 2.83125Z" fill="url(#paint1_linear_18_15539)" />
@@ -70,12 +70,12 @@ export default function HomepageContent() {
                     </svg>
                   </div>
                 </div>
-                <p class="m-0 text-lg text-[#846358]"><strong><strong>Rapid Styling</strong></strong><br />Style your page in no time</p>
+                <p class="m-0 text-lg text-[#846358]"><strong><strong>Rapid Prototyping</strong></strong><br />Build your website in no time</p>
               </div>
               <div class="flex justify-start items-center gap-2 m-0">
                 <div>
                   <div class="w-12">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="w-12 h-12" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g filter="url(#filter0_ii_28327_5144)">
                         <path d="M29.5615 2H25.3915C20.0915 2 14.9715 3.88 10.9315 7.3C6.67155 10.91 4.21155 16.22 4.21155 21.81V25.06C4.21155 25.06 4.38155 24.76 4.70155 24.25C4.61155 24.63 4.57155 24.84 4.57155 24.84V25.06H8.49155C10.5715 25.06 12.5715 24.59 14.3815 23.72C14.5915 23.62 14.5915 23.32 14.3815 23.22L12.2115 22.21C12.0815 22.17 12.1215 22 12.2515 22H16.7815C16.9915 22 17.1915 21.92 17.3515 21.79C18.6815 20.65 19.8015 19.25 20.6215 17.64C20.9215 17.04 21.4915 15.97 21.8015 15.39C21.9315 15.15 21.9215 14.86 21.7815 14.62L20.4215 12.38C20.3215 12.21 20.4415 12 20.6315 12H23.2915C23.5515 12 23.8015 11.86 23.9315 11.64C25.7115 8.68 27.7715 5.69 30.0115 3.19C30.1415 3.05 30.2115 2.86 30.2115 2.67C30.2215 2.3 29.9215 2 29.5615 2Z" fill="url(#paint0_linear_28327_5144)" />
                         <path d="M29.5615 2H25.3915C20.0915 2 14.9715 3.88 10.9315 7.3C6.67155 10.91 4.21155 16.22 4.21155 21.81V25.06C4.21155 25.06 4.38155 24.76 4.70155 24.25C4.61155 24.63 4.57155 24.84 4.57155 24.84V25.06H8.49155C10.5715 25.06 12.5715 24.59 14.3815 23.72C14.5915 23.62 14.5915 23.32 14.3815 23.22L12.2115 22.21C12.0815 22.17 12.1215 22 12.2515 22H16.7815C16.9915 22 17.1915 21.92 17.3515 21.79C18.6815 20.65 19.8015 19.25 20.6215 17.64C20.9215 17.04 21.4915 15.97 21.8015 15.39C21.9315 15.15 21.9215 14.86 21.7815 14.62L20.4215 12.38C20.3215 12.21 20.4415 12 20.6315 12H23.2915C23.5515 12 23.8015 11.86 23.9315 11.64C25.7115 8.68 27.7715 5.69 30.0115 3.19C30.1415 3.05 30.2115 2.86 30.2115 2.67C30.2215 2.3 29.9215 2 29.5615 2Z" fill="url(#paint1_radial_28327_5144)" />
@@ -206,7 +206,7 @@ export default function HomepageContent() {
               <div class="flex justify-start items-center gap-2 m-0">
                 <div>
                   <div class="w-12">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="w-12 h-12" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g filter="url(#filter0_i_18_23558)">
                         <path d="M19.4453 14.0703V8.50781C19.4453 5.73776 21.6524 3.49219 24.375 3.49219C27.0976 3.49219 29.3047 5.73776 29.3047 8.50781V9.59369" stroke="#C2C2C6" stroke-width="2.75" stroke-linecap="round" />
                       </g>
@@ -324,20 +324,20 @@ export default function HomepageContent() {
                     </svg>
                   </div>
                 </div>
-                <p class="m-0 text-[#846358] text-lg"><strong>Agnostic Integration</strong> <br /> No vendor lock-in. Work with any of your favorite page builders </p>
+                <p class="m-0 text-[#846358] text-lg"><strong>Agnostic Integration</strong> <br /> Do not lock yourself. Work with any of your favorite page builders </p>
               </div>
             </div>
-            <p class="text-lg">Production-ready with no performance impact.<br />The latest Tailwind CSS version (3.x) is always available.</p>
+            <p class="text-lg">Build a production-ready website with no performance impact.<br />The latest Tailwind CSS version (3.x) is always available without need to update Winden.</p>
             <div class="mt-16 z-20 relative flex gap-6 flex-col md:flex-row">
               <Link
-                className="button button--primary button--lg shadow-md dark:text-white dark:bg-[#2e8555] dark:hover:bg-[#29784c]"
-                to="https://dplugins.com/products/winden/">
-                Download
+                className="wp-btn"
+                to="https://dplugins.com/products/winden/#product-price">
+                Starts from $79
               </Link>
               <Link
-                className="button button--secondary button--lg shadow-md"
+                className="wp-btn-outline"
                 to="/docs">
-                Learn more
+                Read Documentation
               </Link>
             </div>
             <figure class="mx-0 my-16 md:my-32 overflow-hidden ">
