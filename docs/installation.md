@@ -8,14 +8,14 @@ Winden is essentially a WordPress plugin.
 
 ## Requirements
 
-Winden has a few system requirements. Of course, modern hosting satisfies all of these requirements, so it's highly recommended that you use modern hosting to run the Winden.
+Winden has a few system requirements. Surely, modern hosting satisfies all of these requirements, so it's highly recommended to use modern hosting to run the Winden.
 
-You will need to make sure your server meets the following requirements:
+You need to ensure your server meets the following requirements:
 
 - PHP 7.4+
 - WordPress 5.6+
 
-:::tip Affordable cloud provider recommendation
+:::tip Affordable cloud providers recommendation
 - [DigitalOcean](https://m.do.co/c/acb41ca21dc2)
 - [Hetzner](https://hetzner.cloud/?ref=J37mHc19fUpr)
 - [Vultr](https://www.vultr.com/?ref=9229166-8H)

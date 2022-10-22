@@ -16,7 +16,7 @@ Winden comes with built-in integration with the following page builders:
 - [Oxygen Builder](https://oxygenbuilder.com)
 - [Zion Builder](https://zionbuilder.io)
 
-And we plan to add more first-class integration in the future.
+And we plan to add more first-class integrations in the future.
 
 ## WordPress hooks
 
@@ -24,9 +24,9 @@ Winden provides simple WordPress hooks to integrate with your page builder.
 
 ### `f!winden/core/runtime:is_inside_builder`
 
-This filter hook is used to determine if the current page is being edited in a page builder.
+This filter hook is used to determine whether the current page is being edited in a page builder.
 
-Winden will load the CDN instead of the cached CSS file when the page is edited in a page builder's editor.
+Winden will load the CDN when the page is edited in a page builder's editor, instead of the cached CSS File.
 
 ```php
 <?php

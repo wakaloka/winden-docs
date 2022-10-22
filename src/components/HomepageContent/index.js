@@ -11,7 +11,7 @@ export default function HomepageContent() {
           <div class="container mx-auto">
             <div>
               <div class="flex gap-4 items-start flex-col md:gap-4 md:flex-row md:items-center">
-                <h2 class="m-0"><strong>400+</strong></h2>
+                <h2 class="m-0"><strong>500+</strong></h2>
                 <p class="m-0 text-lg leading-6">Winden users enjoying <br /> Tailwind CSS inside page builder</p>
               </div>
               <hr class="inline-block w-20 border-b-2 border-solid" />
@@ -70,7 +70,7 @@ export default function HomepageContent() {
                     </svg>
                   </div>
                 </div>
-                <p class="m-0 text-lg text-[#846358]"><strong><strong>Rapid Prototyping</strong></strong><br />Build your website in no time</p>
+                <p class="m-0 text-lg text-[#846358]"><strong><strong>Rapid Prototyping</strong></strong><br />Build your website in minutes</p>
               </div>
               <div class="flex justify-start items-center gap-2 m-0">
                 <div>
@@ -327,7 +327,7 @@ export default function HomepageContent() {
                 <p class="m-0 text-[#846358] text-lg"><strong>Agnostic Integration</strong> <br /> Do not lock yourself. Work with any of your favorite page builders </p>
               </div>
             </div>
-            <p class="text-lg">Build a production-ready website with no performance impact.<br />The latest Tailwind CSS version (3.x) is always available without need to update Winden.</p>
+            <p class="text-lg">Build a production-ready website with no performance impact.<br />The latest Tailwind CSS version (3.x) is always available, no need to update Winden.</p>
             <div class="mt-16 z-20 relative flex gap-6 flex-col md:flex-row">
               <Link
                 className="wp-btn"

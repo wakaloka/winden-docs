@@ -19,9 +19,9 @@ Each time you click the "(Re-)Generate cache" button on the Winden settings page
 }
 ```
 
-Once the Queue is created, Winden will send a `POST` request to the Worker to process the Queue. The Worker will then process the Queue, and Winden will send a `GET` request to the Worker periodically to check if the Queue is being processed and done. If the Queue is done, Winden will fetch the result from The Worker and save it as a CSS file in the `wp-content/uploads/winden` directory.
+Once the Queue is created, Winden will send a `POST` request to the Worker to process the Queue. The Worker will then process the Queue, and Winden will send a `GET` request to the Worker periodically, to check if the Queue is being processed and done. When the Queue is done, Winden will fetch the result from The Worker and save it as a CSS file in the `wp-content/uploads/winden` directory.
 
-The Worker is a service that will consume your work to generate a tiny single cached CSS file for the entire website with less than 10KB.
+The Worker is a service that consume your work to generate a tiny single cached CSS file for the entire website with less than 10KB.
 
 ## The Worker services
 
@@ -40,7 +40,7 @@ Below is the diagram of the Worker service architecture:
 The Queue Pool service is hosted on [Hetzner](https://hetzner.cloud/?ref=J37mHc19fUpr). 
 :::
 
-The Queue Pool service is responsible for receiving the Queue request from the Winden plugin, scheduling the Queue, dispatching the `generate_cache` task to the Compiler service, and storing the result which the Winden plugin will fetch to generate the CSS file.
+The Queue Pool service is responsible in receiving the Queue request from the Winden plugin, scheduling the Queue, dispatching the `generate_cache` task to the Compiler service, and storing the result which the Winden plugin will fetch to generate the CSS file.
 
 ### The Compiler service {#compiler-service}
 
@@ -48,13 +48,13 @@ The Queue Pool service is responsible for receiving the Queue request from the W
 The Compiler service is hosted on [GitHub](https://docs.github.com/en/actions) server.
 :::
 
-The Compiler service is responsible for receiving the `generate_cache` task from the Queue Pool service, processing the task in a clean environment for each task, and sending the result back to the Queue Pool service.
+The Compiler service is responsible in receiving the `generate_cache` task from the Queue Pool service, processing the task in a clean environment for each task, and sending the result back to the Queue Pool service.
 
 The Compiler service does the actual process of generating the CSS.
 
 ## Self-host the Worker
 
-The Worker service is free to use for everyone. However, if you want to host your Worker, this guide will help you to do so.
+The Worker service is free to use for everyone. However, if you want to host your Worker, this guidance will help you to do so.
 
 The Worker is open-sourced and available on [GitHub](https://github.com/wakaloka/winden-worker).
 
@@ -90,7 +90,7 @@ CF_API_TOKEN=__CLOUDFLARE_API_TOKEN__ \
 docker compose -f docker-compose.yaml -f docker-compose.prod.yaml up --build -d
 ```
 
-The following list is the description of the placeholders on the command above:
+The following lists are the descriptions of the placeholders on the commands above:
 
 - `__WORKER_DOMAIN__` is the domain name of your Worker service. For example, `worker-1.your-domain.com`.
 - `__APP_SECRET__` is the random string token used by the Queue Pool Service. 
@@ -101,7 +101,7 @@ The following list is the description of the placeholders on the command above:
 - `__CLOUDFLARE_API_TOKEN__` is the Cloudflare API Token to help automatically set up the SSL certificate for your Worker service.
 
 :::tip
-You can generate a random string using the following command:
+You can generate a random string by using the following command:
 
 ```bash
 php -r "echo bin2hex(random_bytes(16));"
