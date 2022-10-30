@@ -27,6 +27,8 @@ const config = {
     locales: ['en'],
   },
 
+  scripts: [{src: 'https://plausible.suabahasa.dev/js/script.js', async: true, defer: true, 'data-domain': 'winden.dev'}],
+
   presets: [
     [
       'classic',
